@@ -1,0 +1,718 @@
+{
+	"tables": {
+		"8659c373-0f2e-4e1f-90b3-b6fff3b76227": {
+			"id": "8659c373-0f2e-4e1f-90b3-b6fff3b76227",
+			"visible": true,
+			"name": "supplier",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "fedc8bb6-48f0-46af-8b1b-d4e58e759f05",
+					"name": "_id",
+					"datatype": "objectId",
+					"param": "",
+					"pk": true,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "c0ae5193-fa1d-43f4-bd77-f52e25c0e4fa",
+					"name": "name",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "cac68878-be65-4193-9159-7d29f62acf3b",
+					"name": "address",
+					"datatype": "c57a90bd-01d3-4338-ae63-fbc1f83d2abb",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "70b90136-ac70-4dc9-a485-79b92ef35796",
+					"name": "phone",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "a0ccb652-6f48-4d73-9aff-06ab3b454b7d",
+					"name": "fax",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "b606b04a-0500-48bd-a6d7-5be5ee2d020c",
+					"name": "nif",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "0ae8f7e5-22bf-4eb4-aa8d-805833229b1c",
+					"name": "glasses",
+					"datatype": "5a5901b6-5c68-4aab-a5b3-39eeb3947732",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": true,
+					"enum": "",
+					"validate": ""
+				}
+			],
+			"relations": [],
+			"lines": [
+				"d39411f3-3073-4d44-9109-4fe863d5efe0"
+			],
+			"keys": [
+				{
+					"id": "af9db41c-3247-4e74-bdb8-4971b6f104b6",
+					"name": "Primary key",
+					"isPk": true,
+					"using": "na",
+					"cols": [
+						{
+							"id": "b6cc365f-51d2-41a0-9996-72de7746f96b",
+							"colid": "fedc8bb6-48f0-46af-8b1b-d4e58e759f05"
+						}
+					]
+				}
+			],
+			"indexes": [],
+			"embeddable": false,
+			"generate": true,
+			"generateCustomCode": true,
+			"validationLevel": "na",
+			"validationAction": "na",
+			"collation": "",
+			"others": "",
+			"autoIndexId": false
+		},
+		"d1711943-97c4-41ca-adf3-0d7deae1b9f6": {
+			"id": "d1711943-97c4-41ca-adf3-0d7deae1b9f6",
+			"visible": true,
+			"name": "customer",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "98400e0d-25b0-4af8-96ba-bc15cc78f644",
+					"name": "_id",
+					"datatype": "objectId",
+					"param": "",
+					"pk": true,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "ac6db6af-e382-4081-8f7b-c2c8364dab6b",
+					"name": "name",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "b16537e2-bc76-40f1-965a-74e1a1239550",
+					"name": "postcode",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "22087b84-e9cd-40e5-adda-93337bc1ec3e",
+					"name": "phone",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "ef788c91-f009-4a3e-b17e-e1c58f10ac11",
+					"name": "mail",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "ba2092bf-1820-4faa-89f9-8ddda7ba2151",
+					"name": "record_date",
+					"datatype": "date",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "6e0bd6e0-9b5b-4382-87b8-4d4111947932",
+					"name": "recommendation_id",
+					"datatype": "objectId",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "b91115d2-e53f-432f-b590-a1f855d58acc",
+					"name": "sale",
+					"datatype": "b750d548-6412-4dae-9a09-1229ee3c4931",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": true,
+					"enum": "",
+					"validate": ""
+				}
+			],
+			"relations": [],
+			"lines": [
+				"d39411f3-3073-4d44-9109-4fe863d5efe0"
+			],
+			"keys": [
+				{
+					"id": "2e0337de-d4e4-407b-bbb1-aafafb646138",
+					"name": "Primary key",
+					"isPk": true,
+					"using": "na",
+					"cols": [
+						{
+							"id": "036c19ce-4c82-4621-b117-55698fa87f94",
+							"colid": "98400e0d-25b0-4af8-96ba-bc15cc78f644"
+						}
+					]
+				}
+			],
+			"indexes": [],
+			"embeddable": false,
+			"generate": true,
+			"generateCustomCode": true,
+			"validationLevel": "na",
+			"validationAction": "na",
+			"collation": "",
+			"others": "",
+			"autoIndexId": false,
+			"capped": false
+		},
+		"c57a90bd-01d3-4338-ae63-fbc1f83d2abb": {
+			"id": "c57a90bd-01d3-4338-ae63-fbc1f83d2abb",
+			"visible": false,
+			"name": "object",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "c4bb7473-7f18-4399-af3e-1291464c1503",
+					"name": "street",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "b7e03da5-9783-4d45-b757-bf465d8ab3b5",
+					"name": "number",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "dd5effd2-5969-40ec-8766-c46dae43288f",
+					"name": "city",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "7d70eaf1-f887-4beb-92ba-af6350354b7a",
+					"name": "postcode",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "a86fb03b-fe4e-4b8a-a85b-18e5731777f0",
+					"name": "country",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				}
+			],
+			"relations": [],
+			"lines": [],
+			"keys": [
+				{
+					"id": "5c3a240b-d4a9-4f72-8ae2-d450536c1d8d",
+					"name": "Primary key",
+					"isPk": true,
+					"using": "na",
+					"cols": []
+				}
+			],
+			"indexes": [],
+			"embeddable": true,
+			"generate": true,
+			"generateCustomCode": true
+		},
+		"5a5901b6-5c68-4aab-a5b3-39eeb3947732": {
+			"id": "5a5901b6-5c68-4aab-a5b3-39eeb3947732",
+			"visible": false,
+			"name": "object",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "1599208d-e31a-43e7-882e-ac6586fbc20a",
+					"name": "glasses_id",
+					"datatype": "int",
+					"param": "",
+					"pk": true,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "ef54e21d-dfb7-4e02-95ee-aa9d051060c6",
+					"name": "brand",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "8b6c343b-2f75-4802-aba5-501ba863b940",
+					"name": "graduation_left_eye",
+					"datatype": "double",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "2552c157-f218-48b8-84c3-0259d6b85029",
+					"name": "graduation_right_eye",
+					"datatype": "double",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "71287b4a-99a3-460d-9758-89bd120920e5",
+					"name": "frame_type",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "b9623013-951f-4886-8fb0-af9ec3227643",
+					"name": "frame_color",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "0a8b81c7-7edd-4f54-9efe-a47ddd74e873",
+					"name": "lense_color",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "1cbfc7ed-79d3-46e8-a2ed-bab6823078ae",
+					"name": "price",
+					"datatype": "decimal",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				}
+			],
+			"relations": [],
+			"lines": [],
+			"keys": [
+				{
+					"id": "145e5dd5-fd43-4e3c-b4ba-32297d06106e",
+					"name": "Primary key",
+					"isPk": true,
+					"cols": [
+						{
+							"id": "0d82eb5c-f913-4708-9f05-d507a6c2dc00",
+							"colid": "1599208d-e31a-43e7-882e-ac6586fbc20a"
+						}
+					]
+				}
+			],
+			"indexes": [],
+			"embeddable": true,
+			"generate": true,
+			"generateCustomCode": true
+		},
+		"b750d548-6412-4dae-9a09-1229ee3c4931": {
+			"id": "b750d548-6412-4dae-9a09-1229ee3c4931",
+			"visible": false,
+			"name": "object",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "f80a9d2d-6a62-4fad-b773-4bc14ebbf7e0",
+					"name": "glasses_id",
+					"datatype": "int",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "ef1b4c5f-bfcf-4f9a-8457-5e46d0a4f551",
+					"name": "seller_name",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "609c32f9-1ee4-45f5-ac05-87c6813252d9",
+					"name": "sale_date",
+					"datatype": "date",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				}
+			],
+			"relations": [],
+			"lines": [],
+			"keys": [
+				{
+					"id": "89bbf9e6-ad06-40e0-b99e-02b5c503290d",
+					"name": "Primary key",
+					"isPk": true,
+					"cols": []
+				}
+			],
+			"indexes": [],
+			"embeddable": true,
+			"generate": true,
+			"generateCustomCode": true
+		}
+	},
+	"relations": {},
+	"notes": {},
+	"lines": {
+		"d39411f3-3073-4d44-9109-4fe863d5efe0": {
+			"id": "d39411f3-3073-4d44-9109-4fe863d5efe0",
+			"visible": true,
+			"name": "customer-provider",
+			"desc": "",
+			"style": "solid",
+			"parent": "d1711943-97c4-41ca-adf3-0d7deae1b9f6",
+			"child": "8659c373-0f2e-4e1f-90b3-b6fff3b76227",
+			"lineColor": "transparent",
+			"markerStart": "none",
+			"markerEnd": "arrowEnd",
+			"linegraphics": "basic",
+			"generate": true
+		}
+	},
+	"model": {
+		"name": "optical_shop",
+		"id": "577429c9-9b55-44be-882e-d7da8fc3b9da",
+		"activeDiagram": "21090464-d453-4663-8162-4c5feb4faa54",
+		"desc": "",
+		"path": "",
+		"type": "MONGODB",
+		"version": 1,
+		"parentTableInFkCols": true,
+		"caseConvention": "under",
+		"replaceSpace": "_",
+		"color": "transparent",
+		"sideSelections": true,
+		"isDirty": false,
+		"storedin": {
+			"major": 5,
+			"minor": 2,
+			"extra": 0
+		},
+		"embeddedInParentsIsDisplayed": true,
+		"schemaContainerIsDisplayed": false,
+		"cardinalityIsDisplayed": false,
+		"estimatedSizeIsDisplayed": false,
+		"writeFileParam": false,
+		"currentDisplayMode": "metadata",
+		"def_coltopk": true,
+		"def_validationLevel": "na",
+		"def_validationAction": "na",
+		"def_collation": "",
+		"def_others": "",
+		"lastSaved": "Sat Apr 01 2023 20:12:14 GMT+0200 (hora de verano de Europa central)",
+		"modelScriptsDir": "/Users/annasantasusanaberch/Desktop/It Academy -  Cibernàrium/MySQL/MongoDB S2.03",
+		"modelPdfReportPath": "/Users/annasantasusanaberch/Desktop/It Academy -  Cibernàrium/MySQL/MongoDB S2.03/ÒPTICA/optical_shop.pdf"
+	},
+	"otherObjects": {},
+	"diagrams": {
+		"21090464-d453-4663-8162-4c5feb4faa54": {
+			"name": "Main Diagram",
+			"description": "",
+			"id": "21090464-d453-4663-8162-4c5feb4faa54",
+			"keysgraphics": true,
+			"linegraphics": "detailed",
+			"zoom": 1,
+			"background": "transparent",
+			"lineColor": "transparent",
+			"isOpen": true,
+			"main": true,
+			"diagramItems": {
+				"8659c373-0f2e-4e1f-90b3-b6fff3b76227": {
+					"referencedItemId": "8659c373-0f2e-4e1f-90b3-b6fff3b76227",
+					"x": 592,
+					"y": 79,
+					"gHeight": 424,
+					"gWidth": 205,
+					"color": "#ffffff",
+					"background": "#03a9f4",
+					"resized": true,
+					"autoExpand": true
+				},
+				"d1711943-97c4-41ca-adf3-0d7deae1b9f6": {
+					"referencedItemId": "d1711943-97c4-41ca-adf3-0d7deae1b9f6",
+					"x": 47,
+					"y": 180,
+					"gHeight": 226,
+					"gWidth": 260,
+					"color": "#ffffff",
+					"background": "#03a9f4",
+					"resized": true,
+					"autoExpand": true
+				},
+				"c57a90bd-01d3-4338-ae63-fbc1f83d2abb": {
+					"referencedItemId": "c57a90bd-01d3-4338-ae63-fbc1f83d2abb",
+					"x": 600,
+					"y": 40,
+					"gHeight": 60,
+					"gWidth": 160,
+					"color": "#ffffff",
+					"background": "#8bc34a",
+					"resized": false,
+					"autoExpand": true
+				},
+				"5a5901b6-5c68-4aab-a5b3-39eeb3947732": {
+					"referencedItemId": "5a5901b6-5c68-4aab-a5b3-39eeb3947732",
+					"x": 800,
+					"y": 40,
+					"gHeight": 60,
+					"gWidth": 160,
+					"color": "#ffffff",
+					"background": "#8bc34a",
+					"resized": false,
+					"autoExpand": true
+				},
+				"b750d548-6412-4dae-9a09-1229ee3c4931": {
+					"referencedItemId": "b750d548-6412-4dae-9a09-1229ee3c4931",
+					"x": 600,
+					"y": 40,
+					"gHeight": 60,
+					"gWidth": 160,
+					"color": "#ffffff",
+					"background": "#8bc34a",
+					"resized": false,
+					"autoExpand": true
+				}
+			},
+			"scroll": {
+				"x": 0,
+				"y": 0
+			},
+			"type": "erd"
+		}
+	},
+	"order": [],
+	"collapsedTreeItems": [],
+	"reverseStats": {}
+}
